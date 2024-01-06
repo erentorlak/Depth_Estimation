@@ -1,7 +1,16 @@
 
-# Zoe Depth Estimation
+# Depth Estimation Project
 
-A brief description of what this project does and who it's for
+Depth Estimation is a project designed for depth estimation using the powerful ZoeDepth model. This repository offers multiple interfaces for seamless integration and deployment, making it accessible through both command-line (CLI) and API methods.
+
+Features
+Depth Estimation: Utilizes the ZoeDepth model to estimate depth maps from input images.
+
+CLI Interface: The command-line interface allows users to perform depth estimation by providing input and output image paths as arguments.
+
+API Interface: Provides a simple API endpoint (http://127.0.0.1:8041/predict) for integrating depth estimation functionality into other applications or services.
+
+Docker Support: Offers Docker support for easy deployment and scaling of the depth estimation service. Users can build a Docker image and run it as a container to encapsulate the environment.
 
 
 
