@@ -4,6 +4,12 @@
 A brief description of what this project does and who it's for
 
 
+
+![input_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/input_image.jpg)
+![output_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/output_image.jpg)
+
+
+
 ## Usage/Examples
 
 ### CLI Usage
@@ -48,8 +54,4 @@ docker build -t depth_estimation .
 docker run -d -p 8041:8041 depth_estimation
 ```
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
