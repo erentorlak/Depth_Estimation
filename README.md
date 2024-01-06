@@ -5,8 +5,8 @@ A brief description of what this project does and who it's for
 
 
 
-![input_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/input_image.jpg)
-![output_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/output_image.png)
+![input_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/input_image.jpg){: width="200" height="200"}
+![output_image](https://github.com/erentorlak/Depth_Estimation/blob/main/example/output_image.png){: width="200" height="200"}
 
 
 
