@@ -16,8 +16,8 @@ def upload_image_to_imgbb(image_path):
     api_key = get_api_key()
 
     with open(image_path, "rb") as file:
-        image_data = base64.b64encode(file.read()).decode("utf-8")
-        payload = {"key": api_key, "image": image_data}
-        response = requests.post(url, data=payload)
-        response.raise_for_status()
-        return response.json()
+        image_data = base64.b64encode(file.read()).decode("utf-8") # convert image to base64
+        payload = {"key": api_key, "image": image_data}            # create payload 
+        response = requests.post(url, data=payload)                # send POST request
+        response.raise_for_status()                                
+        return response.json()                                     
