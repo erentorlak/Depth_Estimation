@@ -55,7 +55,3 @@ docker run -d -p 8041:8041 depth_estimation
 ```
 
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
